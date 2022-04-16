@@ -1,0 +1,318 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: linear-gradient(to right,#f754a5,#0e83f1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+  max-width: 1518px;
+}
+.homeapp
+{
+  position: relative;
+  top:50px;
+}
+.myhead
+{
+  text-align: left;
+  background: linear-gradient(to left,rgb(2, 64, 233),rgb(22, 176, 248));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 45px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.myhead2{
+  text-align: right;
+  position: relative;
+  left:300px;
+  margin-top: 50px;
+  background: linear-gradient(to left,rgb(245, 37, 141),rgb(248, 22, 173));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.skills
+{
+  text-align: left;
+  font-size: 35px;
+  position: relative;
+  left: 120px;
+  background: linear-gradient(to left,rgb(226, 8, 8),rgb(10, 2, 48));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1f1d1d;
+}
+.navbar
+{
+  top: 0px;
+  width: 1515px;
+  height: 80px;
+  position: absolute;
+  display: flex;
+  float: left;
+  background-color: #f5f5f546;
+}
+.navbar .icon
+{
+  padding-right: 20px;
+  font-size: 25px;
+  color: black;
+}
+td 
+{
+  padding-right: 30px;
+  border-bottom: 2px solid #f5f5f546;
+  border-right: 5px solid #f5f5f549;
+  border-radius: 4px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.navbar li{
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  padding-right: 100px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+
+.mypara
+{
+  text-align: left;
+  margin-left: 10px;
+  width: fit-content;
+  border: 2px solid #ffffff42;
+  border-radius: 35px;
+  background-color: #f09ee238;
+}
+.mypara1
+{
+  text-align: right;
+  width: fit-content;
+  position: relative;
+  left: 450px;
+  border: 2px solid #ffffff42;
+  border-radius: 35px;
+  background-color: #f09ee234;
+}
+
+.myfooter
+{
+  background-color: black;
+  height: 300px;
+  color: white;
+  position: relative;
+}
+.myfooter li{
+  display: flex;
+  float: left;
+  position: relative;
+  top: 200px;
+  left: 500px;
+  margin-left: 60px;
+}
+.myfooter .reactlogo
+{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 90vh;
+}
+.smedia{
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+.smedia li:hover{
+  color: #0e83f1;
+  font-size: 28px;
+}
+.space
+{
+  width: 400px;
+  height: 400px;
+  transform: rotate(250deg);
+  position: absolute;
+  top: 150px;
+  left: 1000px;
+}
+.jafar
+{
+  position: absolute;
+  left: -400px;
+  top: -10px;
+  width: 400px;
+  height: 500px;
+}
+.prof .images
+{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 90px;
+  height: 70px;
+}
+.prof th{
+  padding-right: 100px;
+  padding-left: 50px;
+}
+
+img
+{
+  width: 50px;
+  height: 40px;
+}
+.prof
+{
+  background-color: rgba(223, 218, 210, 0);
+  align-items: center;
+  position: relative;
+  width:max-content;
+  left: 250px;
+  margin-left: 300px;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.intro
+{
+  width: 1000px;
+  font-size: medium;
+  color: rgb(60, 89, 214);
+}
+.myintro
+{
+  width: 1000px;
+}
+.myintro p{
+  margin-left: 0px;
+}
+.myintro td,th
+{
+  margin-top: 10px;
+}
+.lastintro
+{
+  position: relative;
+  width: max-content;
+
+}
+.aboutapp
+{
+  height: 700px;
+  background-color:inherit;
+  width: 1518px;
+}
+.profile
+{
+  margin-top: 0px;
+  top: 90px;
+  width: 700px;
+  height: 600px;
+  position: relative;
+  color:black;
+  background-color: rgba(255, 255, 255, 0.199);
+  left: 450px;
+}
+
+.profile table,p
+{
+  margin-left: 5px;
+}
+.profile th,td{
+  padding-bottom: 10px;
+}
+.profile td
+{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profile table
+{
+  margin-left: 30px;
+}
+.profimg
+{
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  bottom: 34vh;
+  left: 55vh;
+}
+
+.feedbackapp
+{
+  height: 700px;
+  background-color:#ffffff00;
+  width: 1518px;
+}
+.report
+{
+  left: 200px;
+  top: 90px;
+  position: relative;
+  width: 800px;
+  background-color: #ffffff4d;
+  height: 500px;
+  box-shadow: 0px 3px 3px 0px #ffffff4b;
+  text-align: left;
+}
+.report ,h2,p,form
+{
+margin-left: 10px;
+padding: 5px;
+color: black;
+}
+.midinput
+{
+  width: 360px;
+  height: 30px;
+  background-color: inherit;
+  border: 1px solid white;
+}
+.extinput
+{
+  width: 500px;
+  height: 150px;
+  background-color: inherit;
+  border: 1px solid white;
+}
+.report label
+{
+  font-size: large;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+}
+.mybtn
+{
+  background-image: linear-gradient(to right,#58e6eb,#3e177c);
+  width: 250px;
+  height: 100px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10%;
+  font-size: 25px;
+  color: white;
+  margin-left: 100px;
+}
+.btn1
+{
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: larger;
+  background-color: #2559e7;
+  border: 2px solid black;
+  position: absolute;
+  left: 80vh;
+  top: 60vh;
+}
